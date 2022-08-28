@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  font-family: "Armata";
+}
+.caixa-chave {
+  background-color: #2d4065;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 220px;
+  height: 322px;
+}
+
+#img-chave {
+  width: 50px;
+  rotate: -50deg;
+  margin-left: 80px;
+}
+
+.caixa-chave > section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+.caixa-chave > section > p {
+  color: white;
+  font-family: 'Comfortaa';
+  font-style: bold;
+}
+.caixa-chave > p {
+  color: #80ff7d;
+  margin: 10px;
+}
+
+.disponivel {
+  display: flex;
+  flex-direction: row;
+}
+
+#agendar-chave {
+  border-radius: 20px;
+  background-color: #6d43da;
+  border-style: none;
+}
+
+#retirar-chave {
+  background: linear-gradient(270deg, #dacb43 0%, #f0a35b 100%);
+  border-radius: 20px;
+  border-style: none;
+}
+
+.caixa-links {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+#status {
+  color: #7da9ff;
+  font-style: normal;
+  font-family: 'Josefin Sans';
+  font-size: 15px;
+}
+
+#sala {
+  font-size: 30px;
+  line-height: 38px;
+}

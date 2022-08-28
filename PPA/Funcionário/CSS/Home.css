@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;600&display=swap');
+/*font-family: 'Josefin Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap');
+/*font-family: 'Comfortaa', cursive;*/
+/*-----------Titulo/Pesquisa---------------*/
+.nome_user_header > h4{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 750px;
+    margin-left: -20px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pesquisa > input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#seach_1_icon {
+    position: absolute;
+    color: black;
+    margin-left: 220px;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+/*---------------------Predios--------------------*/
+.container_predios{
+    margin-top: 40px;
+    height: 200px;
+    width: 1100px;
+}
+.container_predios > h4 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    color: white;
+}
+.line_predios{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+/*---------------------Predio--------------------*/
+.Container_Predio{
+    margin-top: 20px;
+    background-color: #2D4065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+
+}
+.Container_Predio > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Container_Predio > a > h4 {
+    color: #FFC700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Container_Predio > a > img {
+    width: 50px;
+}
+/*---------------------Adicionar Predio--------------------*/
+.Container_Predio_Adicionar{
+    margin-top: 20px;
+    background-color: #2D4065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+.Container_Predio_Adicionar > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    transform: rotate(45deg);
+}
+/*---------------------Hover Predio--------------------*/
+.Container_Predio:hover{
+    height: 110px;
+    width: 110px;
+}
+.Container_Predio_Adicionar:hover{
+    height: 120px;
+    width: 120px;
+}
+
+/*------------------Chaves---------------------*/
+.Tabela_Chaves{
+    margin-top: -50px;
+}
+.Chaves_Predio2 > h4{
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    color: white;
+}
+/*------------------Prédio 1 ---------------------*/
+.Container_Predios1_Chave{
+    margin-top: 20px;
+}
+.informacao_predio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.informacao_predio_linha1{
+    width: 200px;
+    height: 2px;
+    background-color: #5C81CA;
+}
+.nome_predio_tabela2 > h4{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #5C81CA;
+}
+.informacao_predio_linha2{
+    width: 800px;
+    height: 2px;
+    background-color: #5C81CA;
+}
+.SideBar.active .informacao_predio_linha2 {
+    transition: all 0.5s ease-in-out;
+    width: 2000px;
+}
